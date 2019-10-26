@@ -1,0 +1,71 @@
+@charset "UTF-8";
+html {
+	font-size: -webkit-xxx-large;
+}
+body {
+	margin: 0;
+}
+div.container, div.main, div.config {
+	width: 100%;
+}
+div.container {
+	height: 100%;
+}
+div.main {
+	display: inline-flex;
+}
+div.thisstep {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0.4em;
+}
+div#description {
+	font-size: 0.6em;
+}
+div#level {
+	display: inline-table;
+	float: left;
+	height: 100%;
+}
+div.level, input.level, input.timer {
+	display: table-cell;
+	border-style: solid;
+	border-color: SeaGreen;
+	border-width: 2px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+}
+input.level {
+	height: 100%;
+	font-size: 0.5em;
+}
+input.timer {
+	float: right;
+	height: 100%;
+	font-size: 0.8em;
+}
+div.nextlevel {
+	display: grid;
+	height: 100%;
+}
+div.steparea {
+	display: table;
+	margin: auto;
+	border-style: outset;
+	border-radius: 50%;
+	border-color: SeaGreen;
+	border-width: 0.2em;
+	text-align: center;
+	user-select: none;
+	font-size: 2em;
+	overflow: auto;
+	background-color: MediumSeaGreen;
+}
+div.steparea:hover {
+	background-color: DarkSeaGreen;
+	cursor: pointer;
+}
+div.steparea:active {
+	border-style: inset;
+}
